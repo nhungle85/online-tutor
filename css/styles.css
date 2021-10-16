@@ -10,6 +10,9 @@ body {
 #site-header h2 {
   font-family: "Lobster", cursive;
 }
+#site-header a {
+  color: rgba(11, 67, 219, 0.5);
+}
 
 .header-logo {
   padding: 0;
@@ -29,6 +32,10 @@ body {
 a:hover {
   color: #C9E265 !important;
   text-decoration: none;
+}
+
+#allCourses a {
+  color: black !important;
 }
 
 .carousel-caption {
@@ -58,6 +65,13 @@ a:hover {
   padding: 30px;
   background-image: linear-gradient(to right, #439bfa, #007bff, rgba(11, 67, 219, 0.5));
   color: #C9E265;
+}
+
+#allCourses .card {
+  border: none;
+}
+#allCourses .card:hover {
+  border: 1px solid #007bff;
 }
 
 /*# sourceMappingURL=styles.css.map */

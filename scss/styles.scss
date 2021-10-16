@@ -19,6 +19,9 @@ body {
     h2 {
         font-family: $header-font;
     }
+    a {
+        color: $color-dark;
+    }
 }
 
 .header-logo {
@@ -40,6 +43,13 @@ a:hover {
     color: $color-header !important;
     text-decoration: none;
 }
+
+#allCourses {
+    a {
+        color: black !important;
+    }
+}
+
 .carousel-caption {
     background-color: $color-dark
 }
@@ -71,6 +81,12 @@ a:hover {
     background-image: linear-gradient(to right, $color-secondary, $color-main, $color-dark);
     color: $color-header;
 }
-  div {
-      //border: 1px solid blueviolet;
-  }
+#allCourses {
+    .card {
+        border: none;
+    }
+    .card:hover {
+        border: 1px solid $color-main;
+    }
+    
+}
