@@ -1,23 +1,24 @@
 $color-main:#007bff;
 $color-dark: rgba(11, 67, 219, 0.5);
+$color-secondary: #439bfa;
+$color-header: #C9E265;
 
 $body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
 
 body {
     font-family: $body-font;
 }
 
-h2 {
-    color: $color-main;
-}
-
-header h2 {
-    color: $color-main;
-}
-
 .site-footer {
     background-image: linear-gradient($color-main, white);
     padding: 20px 0;
+}
+
+#site-header {
+    h2 {
+        font-family: $header-font;
+    }
 }
 
 .header-logo {
@@ -31,11 +32,12 @@ header h2 {
 }
 
 .navbar {
-    background-color: $color-main;
+    background-color: $color-secondary;
+    padding: 0;
 }
 
-a, a:hover {
-    color: inherit;
+a:hover {
+    color: $color-header !important;
     text-decoration: none;
 }
 .carousel-caption {
@@ -55,4 +57,20 @@ a, a:hover {
         width: 10px;
         height: 10px;
       }
+  }
+
+  #loginModal {
+      .modal-header {
+          background-color: $color-main;
+          color: white;
+      }
+  }
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-main, $color-dark);
+    color: $color-header;
+}
+  div {
+      //border: 1px solid blueviolet;
   }

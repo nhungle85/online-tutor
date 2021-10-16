@@ -2,17 +2,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h2 {
-  color: #007bff;
-}
-
-header h2 {
-  color: #007bff;
-}
-
 .site-footer {
   background-image: linear-gradient(#007bff, white);
   padding: 20px 0;
+}
+
+#site-header h2 {
+  font-family: "Lobster", cursive;
 }
 
 .header-logo {
@@ -26,11 +22,12 @@ header h2 {
 }
 
 .navbar {
-  background-color: #007bff;
+  background-color: #439bfa;
+  padding: 0;
 }
 
-a, a:hover {
-  color: inherit;
+a:hover {
+  color: #C9E265 !important;
   text-decoration: none;
 }
 
@@ -49,6 +46,18 @@ a, a:hover {
   border-radius: 50%;
   width: 10px;
   height: 10px;
+}
+
+#loginModal .modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #439bfa, #007bff, rgba(11, 67, 219, 0.5));
+  color: #C9E265;
 }
 
 /*# sourceMappingURL=styles.css.map */
