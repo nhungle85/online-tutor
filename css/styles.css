@@ -19,9 +19,7 @@ body {
 }
 
 .row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px;
+  padding-bottom: 50px;
 }
 
 .navbar {
@@ -72,6 +70,12 @@ a:hover {
 }
 #allCourses .card:hover {
   border: 1px solid #007bff;
+}
+
+#indexInfo .card-header {
+  background-color: #439bfa;
+  color: white;
+  font-family: "Lobster", cursive;
 }
 
 /*# sourceMappingURL=styles.css.map */
