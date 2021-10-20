@@ -16,6 +16,11 @@ body {
     padding: 20px 0;
 }
 
+.header-title {
+    font-family: $header-font;
+    color: $color-main;
+}
+
 #site-header {
     h2 {
         font-family: $header-font;

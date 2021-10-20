@@ -7,6 +7,11 @@ body {
   padding: 20px 0;
 }
 
+.header-title {
+  font-family: "Lobster", cursive;
+  color: #007bff;
+}
+
 #site-header h2 {
   font-family: "Lobster", cursive;
 }
