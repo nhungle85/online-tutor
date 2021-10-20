@@ -1,6 +1,8 @@
 $color-main:#007bff;
 $color-dark: rgba(11, 67, 219, 0.5);
 $color-secondary: #439bfa;
+$color-light: #86bdf7;
+$color-hover: #cbdbec;
 $color-header: #C9E265;
 
 $body-font: "Open Sans", sans-serif;
@@ -122,3 +124,13 @@ a:hover {
     color: $color-main;
 }
 
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.table-header{
+    background-color: $color-light;
+    
+}

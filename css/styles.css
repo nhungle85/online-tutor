@@ -101,4 +101,14 @@ a:hover {
   color: #007bff;
 }
 
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px;
+}
+
+.table-header {
+  background-color: #86bdf7;
+}
+
 /*# sourceMappingURL=styles.css.map */
