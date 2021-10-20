@@ -1,4 +1,5 @@
 $(function() {
+    $('#testimonial').carousel('cycle');
    $("#loginButton").click(function() {
         $("#loginModal").modal("show");
    });

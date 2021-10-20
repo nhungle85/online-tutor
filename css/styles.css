@@ -78,4 +78,22 @@ a:hover {
   font-family: "Lobster", cursive;
 }
 
+.img-text {
+  width: 100%;
+  height: 200px;
+  display: block;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 20% 5%;
+  background: #007bff;
+  color: white;
+  border-radius: 15px;
+}
+
+.testimonialTitle {
+  font-family: "Lobster", cursive;
+  padding-bottom: 15px;
+  color: #007bff;
+}
+
 /*# sourceMappingURL=styles.css.map */
