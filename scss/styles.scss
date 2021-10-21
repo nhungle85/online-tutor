@@ -78,12 +78,11 @@ a:hover {
       
   }
 
-  #loginModal {
-      .modal-header {
-          background-color: $color-main;
-          color: white;
-      }
-  }
+ .modal-header {
+    background-color: $color-main;
+    color: white;
+ }
+
   .jumbotron {
     margin: 0;
     padding: 30px;
@@ -134,4 +133,8 @@ a:hover {
 .table-header{
     background-color: $color-light;
     
+}
+
+.form-col-padding {
+    padding: 5px;
 }

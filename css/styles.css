@@ -58,7 +58,7 @@ a:hover {
   height: 10px;
 }
 
-#loginModal .modal-header {
+.modal-header {
   background-color: #007bff;
   color: white;
 }
@@ -109,6 +109,10 @@ a:hover {
 
 .table-header {
   background-color: #86bdf7;
+}
+
+.form-col-padding {
+  padding: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
