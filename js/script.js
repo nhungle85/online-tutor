@@ -1,7 +1,11 @@
 $(function () {
-  $("#testimonial").carousel("cycle");
+  
   $("#loginButton").click(function () {
     $("#loginModal").modal("show");
+  });
+
+  $("#registerBtn").click(function () {
+    $("#registerModal").modal("show");
   });
 
   const distance = $("#navBar").offset().top,

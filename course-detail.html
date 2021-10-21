@@ -106,7 +106,7 @@
                 <p>
                     The demand for web developers is growing faster than ever before, and a world of opportunity awaits talented coders. Want to gain a competitive edge? That's where this online bootcamp comes in! With curriculum designed and delivered by MIT’s world-renowned faculty and all the magic of our legendary camps, you’ll build in-demand skills, work in an environment with motivated learners from around the world, and have a blast boosting your portfolio with a certificate.
                 </p>
-                <button type="button" class="btn btn-primary">Register</button>
+                <button id="registerBtn" type="button" class="btn btn-primary">Register</button>
             </div>
         </div>
         <div class="row row-content">
@@ -128,6 +128,43 @@
            
         </div>
     </div>
+    <div id="registerModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h3 class="modal-title">Register</h3>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                  <div class="container-fluid">
+                      <form>
+                          <div class="form-row">
+                              <div class="form-group col-12">
+                                  <label class="sr-only" for="loginEmail">Email address</label>
+                                  <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email"/>
+                              </div>
+                              <div class="form-group col-12">
+                                  <label class="sr-only" for="password">Password</label>
+                                  <input type="password" class="form-control form-control-sm" id="password" placeholder="Password" />
+                              </div>
+                              <div class="col">
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox">
+                                      <label class="form-check-label">Remember me</label>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                              <a class="btn btn-primary btn-sm ml-1" href="mycourses.html" role="button">Register</a>
+                          </div>
+                      </form>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
     <!--Footer-->
     <footer class="site-footer">
       <div class="container">
