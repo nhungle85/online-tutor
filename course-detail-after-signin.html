@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+            <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+            <!-- endbuild -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+        <title>Online Tutor: We grow smarter together</title>
+        
+    </head>
+
+    <body>
+        <header id="site-header" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                        <a href="index.html"><img width="100px" src="img/ot-logo.png" class="img-fluid" /></a>
+                    </div>
+                    <div class="col">
+                        <h1>Online Tutor</h1>
+                        <h2>Your future start right here!</h2>
+                    </div>
+                    <div class="col-md-4 mt-4 text-right">
+                        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+                        <a role="button" class="btn btn-link" href="mailto:onlinetutor.com"><i class="fa fa-envelope-o"></i> onlinetutor.com</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav id="navBar" class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <a id="navBarBrand" class="navbar-brand d-none" href="#"><img src="img/ot-logo.png" height="50" width="50" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a id="navProgram" class="nav-link dropdown-toggle"
+                             data-toggle="dropdown" href="#" role="button" data-hover="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-info fa-lg"></i> Program</a>
+                            <div class="dropdown-menu dropdown-content">
+                              <a class="dropdown-item" href="courses.html">1-on-1 Tutoring</a>
+                              <a class="dropdown-item" href="courses.html">Small Group Semester</a>
+                              <a class="dropdown-item" href="courses.html">Private Lessons</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="courses.html">On-Campus Summer programs</a>
+                            </div>
+                          </li>
+                        <li class="nav-item"><a class="nav-link" href="courses.html"><i class="fa fa-list fa-lg"></i> Courses</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    </ul>
+                    <span class="navbar-text ml-auto">
+                        <a role="button" id="loginButton">Nhung Le</a>
+                      </span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container container-fluid">
+            <div class="row-content"></div>
+            <div class="row row-content">Show course content here</div>
+        </div>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 text-left">
+                        <p>Need help? Contact us:</p>
+                        <a style="padding: 0;" role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+                        <a style="padding: 0;" role="button" class="btn btn-link" href="mailto:onlinetutor.com"><i class="fa fa-envelope-o"></i> onlinetutor.com</a>
+                    </div>
+                    <div class="col text-right">
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <p><small> Copy right: Resource from https://www.idtech.com/</small></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
