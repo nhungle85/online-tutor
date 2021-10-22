@@ -115,4 +115,17 @@ a:hover {
   padding: 5px;
 }
 
+.course-filter-title {
+  font-weight: bold;
+}
+
+#courseItems .list-group-item {
+  border: none;
+}
+
+.course-program {
+  background: #C9E265;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */

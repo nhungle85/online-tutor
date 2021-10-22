@@ -138,3 +138,18 @@ a:hover {
 .form-col-padding {
     padding: 5px;
 }
+
+.course-filter-title {
+    font-weight: bold;
+}
+
+#courseItems {
+    .list-group-item {
+        border: none;
+    }
+}
+
+.course-program {
+    background: $color-header;
+    color: white;
+}

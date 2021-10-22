@@ -103,7 +103,209 @@
             </div>
         </div>
         <div class="row row-content">
-            <h3>All Courses</h3>
+            <div class="col-12 col-md-3">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h4>Filter Courses</h4>
+                        <a href="#">Reset Filter</a>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="course-filter-title">Ages</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" checked id="allAges">
+                            <label class="form-check-label form-check-label-sm" for="allAges">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              7-9
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              10-12
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              13-19
+                            </label>
+                          </div>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="course-filter-title">Seasons</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" checked id="allAges">
+                            <label class="form-check-label form-check-label-sm" for="allAges">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              Fall
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              Winter
+                            </label>
+                          </div>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="course-filter-title">Program</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" checked id="allAges">
+                            <label class="form-check-label form-check-label-sm" for="allAges">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              Virtual Camps
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              Private Lessons
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label form-check-label-sm" for="defaultCheck2">
+                              Group Lessons
+                            </label>
+                          </div>
+                    </li>
+                   
+                  </ul>
+            </div>
+            <div class="col-12 col-md-9">
+                <ul id="courseItems" class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img class="img-fluid" src="/img/courses/algebra.png" alt="Algebra">
+                              </div>
+                              <div class="col">
+                                <div class="card-body">
+                                    <a href="course-detail.html">
+                                        <h5 class="card-title">Pre-Algebra Tutoring</h5>
+                                        <span class="course-program"><small>PRIVATE LESSONS</small></span>
+                                    </a>
+                                    <p class="card-text">
+                                        Math<br/>
+                                        Ages 10-19<br/>
+                                        Beginner - Intermediate
+                                    </p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img width="100%" src="/img/courses/javascript.png" alt="Algebra">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                   <a href="course-detail.html">
+                                    <h5 class="card-title">JavaScript Tutoring</h5>
+                                    <span class="course-program"><small>GROUP LESSONS</small></span>
+                                    </a>
+                                  <p class="card-text">
+                                      Coding, Game Dev<br/>
+                                      Ages 10-19<br/>
+                                      Intermediate - Advanced
+                                  </p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img width="100%" src="/img/courses/chess.png" alt="Algebra">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <a href="course-detail.html">
+                                        <h5 class="card-title">Chess Strategy & Gameplay</h5>
+                                        <span class="course-program"><small>PRIVATE LESSONS</small></span>
+                                    </a>
+                                    <p class="card-text">
+                                        Game Dev, Match<br/>
+                                        Ages 7-19<br/>
+                                        Beginner - Advanced
+                                    </p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img width="100%" src="/img/courses/illustration.png" alt="Algebra">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <a href="course-detail.html">
+                                        <h5 class="card-title">NS Graphic Design with Adobe Illustrator</h5>
+                                        <span class="course-program"><small>VIRTUAL CAMPS</small></span>
+                                    </a>
+                                    <p class="card-text">
+                                        Creative<br/>
+                                        Ages 10-19<br/>
+                                        Beginner - Advanced
+                                    </p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img width="100%" src="/img/courses/scratch.png" alt="Algebra">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <a href="course-detail.html">
+                                        <h5 class="card-title">Scratch Tutoring</h5>
+                                        <span class="course-program"><small>GROUP LESSONS</small></span>
+                                    </a>
+                                    <p class="card-text">
+                                        Coding, Game Dev, Creative<br/>
+                                        Ages 7-19<br/>
+                                        Beginner - Advanced
+                                    </p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                </ul> 
+            </div>
         </div>
     </div>
 
