@@ -8,12 +8,13 @@
     "watch:scss": "onchange 'scss/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "copyjs": "copyfiles -f js/* dist/js",
     "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin course-detail-after-signin.html -d dist --htmlmin -o dist/course-detail-after-signin.html && usemin course-detail.html -d dist --htmlmin -o dist/course-detail.html && usemin courses.html -d dist --htmlmin -o dist/courses.html && usemin mycourses.html -d dist --htmlmin -o dist/mycourses.html",
     "clean": "rimraf dist",
     "lite": "lite-server",
     "start": "npm run watch:all",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run copyjs && npm run usemin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
