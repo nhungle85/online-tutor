@@ -67,10 +67,93 @@
             </div>
         </nav>
 
-        <div class="container container-fluid">
-            <div class="row-content"></div>
-            <div class="row row-content">Show course content here</div>
+        
+        <div class="container-fullpage">
+            <div id="page-content" class="row flex-row">
+                <div style="border: solid 1px grey;" class="col-9 region-main">
+                    <div>
+                        <div class="row">
+                            <div class="col-4">
+                                <h5 class="course-content-title"><i class="fa fa-book fa-lg"></i> Table of Contents</h5>
+                                <div class="list-group list-group-flush" id="courseContent" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-home-list" 
+                                    data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+                                    Function Declarations
+                                </a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                    data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+                                    Events
+                                </a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list" 
+                                    data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+                                    Function Expressions
+                                </a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                    data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"> 
+                                    Arrow Functions
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" 
+                                    aria-labelledby="list-home-list">
+                                    <h3 class="course-detail-title">Instruction</h3>
+                                    <ul>
+                                        <li>Functions in JavaScript are pieces of code you can write and reuse over and over again.</li>
+                                        <li>Other programming languages may call them subroutines or procedures, but the concept is the same.</li>
+                                        <li>There are multiple ways to create functions. In JavaScript, the function declaration is the oldest way.</li>
+                                        <li>To write a function declaration, you first use the function keyword, followed by a function name unique in the scope. You will need this name to call the function later.</li>
+                                        <li>You will be using the JS section of your Codepen, and you will need to open the Codepen Console as well (button in lower left)</li>
+                                        <li>Be aware that the Codepen Console does not log error messages. If you suspect that you have an error in your code, open the browser developer console to view error messages.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                                    aria-labelledby="list-profile-list">
+                                    <h3 class="course-detail-title">Instruction</h3>
+                                    <ul>
+                                        <li>Events are occurrences in the system (in our case, the DOM/browser) that we are able to know about and respond to in the code. For the DOM/browser, this includes events such as mouse clicks, window resizes, key presses, and much more. For a list of possible events, see this page on MDN. </li>
+                                        <li>We can 'subscribe' to know when a particular event is happening in two main ways - onevent handlers, and event listeners. The onevent handlers are the older way, and we will cover them first. </li>
+                                        <li>There are two variations to onevent handlers. The first is the inline method.</li>
+                                        <li>The value of this attribute is the JavaScript we want to run when the mouseover event occurs on this element. Notice that we needed to use single quotes inside the console.log's parameter list, because of the double quotes that surround the JavaScript.</li>
+                                        <li>If you save this then move your mouse over the text "Demo" in the display section of your Codepen, and open your Codepen Console, you should see the log 'over' in the Console.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                    aria-labelledby="list-messages-list">
+                                    <h3 class="course-detail-title">Instruction</h3>
+                                    <ul>
+                                        <li>Function expressions are a way to write functions inline in expressions. This can be useful for various reasons, including being able to use a function as an argument for another function (which is known as a callback function). </li>
+                                        <li>The function expression was added to JavaScript after function declarations.</li>
+                                        <li>In the above example, we created a variable named adder, then we assigned a function as its value, which we created using the function keyword, a parameter list, and a return statement inside a set of curly braces -- which looks just like a function declaration, except that there is no name after the function keyword.</li>
+                                        <li>There are actually two variants of the function expression: the anonymous function expression, and the named function expression. Above, you see an example of an anonymous function expression.</li>
+                                        <li>However, if you tried to call this function using someName(1,2), it would not work. The function name someName is only valid inside its own function body and does not exist outside of it. Most function expressions you run into will be anonymous. There are cases when a named function expression is useful, but we will not discuss them at this time. </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-settings" role="tabpanel" 
+                                    aria-labelledby="list-settings-list">
+                                    <h3 class="course-detail-title">Instruction</h3>
+                                    <ul>
+                                        <li>Arrow functions are a new introduction to JavaScript in ES6 (ES2015). </li>
+                                        <li>Arrow functions will be used very frequently in React (and other modern libraries), so it is crucial that you learn to understand and write them.</li>
+                                        <li>Arrow functions are a more compact version of function expressions and are frequently used as callback functions (functions that are passed into other functions as arguments). You will learn more about using arrow functions as callback functions later. </li>
+                                        <li>Aside from being more compact, the other crucial difference with arrow functions is that they do not have their own this keyword binding. We will not delve into the meaning of this at the moment, but you will learn more later.</li>
+                                        
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div style="border: solid 1px grey;" class="col-3">
+                    Instruction Image
+                </div>
+            </div>
         </div>
+        
+
+        
 
         <footer class="site-footer">
             <div class="container">

@@ -133,4 +133,41 @@ a:hover {
   display: block;
 }
 
+.container-fullpage {
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-shrink: 0;
+}
+
+#page-content {
+  padding: 12px 0 20px;
+  position: relative;
+  width: auto;
+}
+
+.region-main {
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 1.25 rem;
+}
+
+.course-content-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#courseContent .list-group-item {
+  color: #439bfa;
+}
+#courseContent .list-group-item.active {
+  background-color: white;
+  color: black;
+}
+
+.course-detail-title {
+  color: #007bff;
+  text-align: center;
+  padding: 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */
